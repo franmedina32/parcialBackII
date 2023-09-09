@@ -11,5 +11,9 @@ spring:
       database: test
       port: 27017
 server:
+<<<<<<< HEAD
   port: 0
 
+=======
+  port: 0
+>>>>>>> main
