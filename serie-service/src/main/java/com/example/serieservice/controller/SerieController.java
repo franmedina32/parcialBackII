@@ -20,7 +20,6 @@ public class SerieController {
     public SerieController(SerieService serieService) {
         this.serieService = serieService;
     }
-
     @GetMapping
     public List<Serie> getAll() {
         return serieService.getAll();
