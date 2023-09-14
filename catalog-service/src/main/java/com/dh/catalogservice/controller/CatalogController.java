@@ -36,7 +36,7 @@ public class CatalogController {
     public String create(@RequestBody Serie serie) {
         listener.receive(serie);
         serieClient.create(serie);
-        return serie.getId();
+        return serie.id();
     }
 
     @GetMapping("catalog/{genre}")

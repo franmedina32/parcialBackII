@@ -7,8 +7,4 @@ import lombok.Setter;
 
 import java.util.List;
 
-@AllArgsConstructor
-@Setter
-@Getter
 public record Serie(String id, String name, String genre, List<Season> seasons) {}
-

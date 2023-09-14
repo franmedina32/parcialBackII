@@ -15,3 +15,8 @@ spring:
     enabled: true
 server:
   port: 0
+queue:
+  movie:
+    name: my-movie-queue
+  serie:
+    name: my-serie-queue
