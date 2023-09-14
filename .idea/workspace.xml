@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4361dda0-5283-49fb-8755-a55ecb26cb44" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs" beforeDir="false" afterPath="$PROJECT_DIR$/configs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/serie-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/serie-service.yml" afterDir="false" />
     </list>
     <list id="c5141cf3-7507-473d-b384-d1958ac2f216" name="Changes by diegojinkus" comment="" />
@@ -146,7 +144,7 @@
       <workItem from="1694643840135" duration="30000" />
       <workItem from="1694649135648" duration="600000" />
       <workItem from="1694712923218" duration="59000" />
-      <workItem from="1694713120372" duration="1394000" />
+      <workItem from="1694713120372" duration="1723000" />
     </task>
     <servers />
   </component>
