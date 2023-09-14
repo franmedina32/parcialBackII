@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4361dda0-5283-49fb-8755-a55ecb26cb44" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/configs" beforeDir="false" afterPath="$PROJECT_DIR$/configs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/serie-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/serie-service.yml" afterDir="false" />
-    </list>
+    <list default="true" id="4361dda0-5283-49fb-8755-a55ecb26cb44" name="Changes" comment="" />
     <list id="c5141cf3-7507-473d-b384-d1958ac2f216" name="Changes by diegojinkus" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/configs" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -63,7 +60,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "develop",
     "jdk.selected.JAVA_MODULE": "corretto-19",
     "last_opened_file_path": "C:/Users/bauti/OneDrive/Escritorio/Digital House/Primer Bimestre-2do Track/parcialBackII/catalog-service/src/main/java/com/dh/catalogservice",
     "node.js.detected.package.eslint": "true",
@@ -144,7 +141,7 @@
       <workItem from="1694643840135" duration="30000" />
       <workItem from="1694649135648" duration="600000" />
       <workItem from="1694712923218" duration="59000" />
-      <workItem from="1694713120372" duration="2031000" />
+      <workItem from="1694713120372" duration="2354000" />
     </task>
     <servers />
   </component>
