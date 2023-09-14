@@ -23,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/configs" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -63,7 +63,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "corretto-19",
     "last_opened_file_path": "C:/Users/bauti/OneDrive/Escritorio/Digital House/Primer Bimestre-2do Track/parcialBackII/catalog-service/src/main/java/com/dh/catalogservice",
     "node.js.detected.package.eslint": "true",
@@ -144,7 +144,7 @@
       <workItem from="1694643840135" duration="30000" />
       <workItem from="1694649135648" duration="600000" />
       <workItem from="1694712923218" duration="59000" />
-      <workItem from="1694713120372" duration="1723000" />
+      <workItem from="1694713120372" duration="2031000" />
     </task>
     <servers />
   </component>
