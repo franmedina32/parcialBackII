@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4361dda0-5283-49fb-8755-a55ecb26cb44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/parcialBackII.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ExamenParcial072023.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/controller/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/controller/CatalogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs" beforeDir="false" afterPath="$PROJECT_DIR$/configs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/serie-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/serie-service.yml" afterDir="false" />
     </list>
-    <list id="c5141cf3-7507-473d-b384-d1958ac2f216" name="Changes by diegojinkus" comment="">
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/controller/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/controller/CatalogController.java" afterDir="false" />
-    </list>
+    <list id="c5141cf3-7507-473d-b384-d1958ac2f216" name="Changes by diegojinkus" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,14 +42,6 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/controller/CatalogController.java">
-      <ranges>
-        <range start1="19" end1="23" start2="19" end2="19" changelist="c5141cf3-7507-473d-b384-d1958ac2f216" />
-        <range start1="29" end1="39" start2="25" end2="25" changelist="4361dda0-5283-49fb-8755-a55ecb26cb44" />
-      </ranges>
-    </file>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -72,14 +56,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Merging develop",
+    "git-widget-placeholder": "develop",
     "jdk.selected.JAVA_MODULE": "corretto-19",
-    "last_opened_file_path": "C:/Users/bauti/OneDrive/Escritorio/Digital House/Primer Bimestre-2do Track/parcialBackII",
+    "last_opened_file_path": "C:/Users/bauti/OneDrive/Escritorio/Digital House/Primer Bimestre-2do Track/parcialBackII/catalog-service/src/main/java/com/dh/catalogservice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,7 +76,19 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.CatalogServiceApplication">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bauti\OneDrive\Escritorio\Digital House\Primer Bimestre-2do Track\parcialBackII\catalog-service\src\main\java\com\dh\catalogservice" />
+      <recent name="C:\Users\bauti\OneDrive\Escritorio\Digital House\Primer Bimestre-2do Track\parcialBackII\serie-service\src\main\java\com\example\serieservice" />
+      <recent name="C:\Users\bauti\OneDrive\Escritorio\Digital House\Primer Bimestre-2do Track\parcialBackII\movie-service\src\main\java\com\dh\movieservice" />
+      <recent name="C:\Users\bauti\OneDrive\Escritorio\Digital House\Primer Bimestre-2do Track\parcialBackII\movie-service\src\main\java\com\dh\movieservice\core" />
+      <recent name="C:\Users\bauti\OneDrive\Escritorio\Digital House\Primer Bimestre-2do Track\parcialBackII\movie-service\src\main\java\com\dh\movieservice\api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bauti\OneDrive\Escritorio\Digital House\Primer Bimestre-2do Track\parcialBackII\movie-service\src\main\java\com\dh\movieservice\api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SerieServiceApplication">
     <configuration name="CatalogServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="catalog-service" />
@@ -142,7 +142,11 @@
       <option name="presentableId" value="Default" />
       <updated>1694303722430</updated>
       <workItem from="1694303723530" duration="1899000" />
-      <workItem from="1694612105145" duration="2667000" />
+      <workItem from="1694612105145" duration="7045000" />
+      <workItem from="1694643840135" duration="30000" />
+      <workItem from="1694649135648" duration="600000" />
+      <workItem from="1694712923218" duration="59000" />
+      <workItem from="1694713120372" duration="1394000" />
     </task>
     <servers />
   </component>
