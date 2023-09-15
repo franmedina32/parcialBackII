@@ -7,12 +7,16 @@ import com.dh.catalogservice.model.Movie;
 import com.dh.catalogservice.model.Serie;
 import com.dh.catalogservice.repository.MovieRepository;
 import com.dh.catalogservice.repository.SerieRepository;
+import io.github.resilience4j.circuitbreaker.CallNotPermittedException;
+import io.github.resilience4j.circuitbreaker.CircuitBreakerRegistry;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+import io.github.resilience4j.retry.annotation.Retry;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
+
 import java.util.List;
-import java.util.Objects;
+
 
 @Service
 @AllArgsConstructor
@@ -23,8 +27,11 @@ public class CatalogService implements ICatalogService{
     private final ISerieClient serieClient;
     private final MovieRepository movieRepository;
     private final SerieRepository serieRepository;
+    private CircuitBreakerRegistry circuitBreakerRegistry;
 
 
+    @CircuitBreaker(name = "catalogs", fallbackMethod = "emptyList")
+    @Retry(name = "catalogs")
     @Override
     public Catalogo listarPorGenero(String genero) {
         Catalogo catalogo = new Catalogo();
@@ -45,8 +52,14 @@ public class CatalogService implements ICatalogService{
         return movieRepository.save(movie);
     }
 
-
-
-
+    private String emptyList(CallNotPermittedException exception) {
+        return "Error creating Catalog with that genre";
+    }
 
 }
+
+//      JUSTIFICATIVO SOBRE LA POSICION ELEGIDA DEL CIRCUIT BRAKER
+
+//Decidimos poner el circuit braker en el catalogo ya que creemos que es el
+// microservicio principal  donde van a pasar todas las peticiones y, además
+//el método para buscar por genero será el más utilizado.

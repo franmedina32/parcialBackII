@@ -34,6 +34,4 @@ public class RabbitMQSenderConfig {
                 .with("*.orange.*");
     }
 
-
-
 }
