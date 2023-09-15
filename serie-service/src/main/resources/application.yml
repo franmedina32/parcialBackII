@@ -3,30 +3,30 @@ spring:
     name: serie-service
   config:
     import: optional:configserver:http://localhost:8888
-#  mongodb:
-#    embedded:
-#      version: 4.0.2
-#  data:
-#    mongodb:
-#      database: test
-#      port: 2701
-#  rabbitmq:
-#    username: guest
-#    password: guest
-#    host: localhost
-#    port: 5672
-#  sleuth:
-#    enabled: true
-#  zipkin:
-#    enabled: true
-#    base-url: http://localhost:9411/
-#server:
-#  port: 0
-#exchange:
-#  serie:
-#    name: my-serie-exchange
-#queue:
-#  serie:
-#    name: my-serie-queue
+  mongodb:
+    embedded:
+      version: 4.0.2
+  data:
+    mongodb:
+      database: test
+      port: 2701
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+  sleuth:
+    enabled: true
+  zipkin:
+    enabled: true
+    base-url: http://localhost:9411/
+server:
+  port: 0
+exchange:
+  serie:
+    name: my-serie-exchange
+queue:
+  serie:
+    name: my-serie-queue
 
 
