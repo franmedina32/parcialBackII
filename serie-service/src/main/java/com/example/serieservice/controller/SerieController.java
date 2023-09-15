@@ -20,8 +20,7 @@ public class SerieController {
     public SerieController(SerieService serieService) {
         this.serieService = serieService;
     }
-
-    @GetMapping
+    @GetMapping("/all")
     public List<Serie> getAll() {
         return serieService.getAll();
     }
@@ -31,7 +30,7 @@ public class SerieController {
         return serieService.getSeriesBygGenre(genre);
     }
 
-    @PostMapping
+    @PostMapping("/save")
     @ResponseStatus(HttpStatus.CREATED)
     public String create(@RequestBody Serie serie) {
         serieService.create(serie);
