@@ -11,13 +11,13 @@ import java.util.List;
 public interface ISerieClient{
 
 
-    @GetMapping
+    @GetMapping("api/v1/series/all")
     public List<Serie> getAll();
 
     @GetMapping("api/v1/series/{genre}")
     public List<Serie> getSerieByGenre(@PathVariable String genre);
 
-    @PostMapping
+    @PostMapping("api/v1/series/save")
     @ResponseStatus(HttpStatus.CREATED)
     public String create(@RequestBody Serie serie);
 }

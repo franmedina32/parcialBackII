@@ -19,4 +19,3 @@ exchange:
 queue:
   movie:
     name: my-movie-queue
-#

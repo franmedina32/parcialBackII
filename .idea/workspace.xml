@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2057f631-df26-4104-8e8a-e6baf73f79bc" name="Changes" comment="">
+    <list default="true" id="2057f631-df26-4104-8e8a-e6baf73f79bc" name="Changes" comment="dev">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_09_2023_16_02__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/client/ISerieClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/client/ISerieClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serie-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/SerieServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/SerieServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/controller/SerieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/controller/SerieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/target/classes/com/example/serieservice/controller/SerieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/target/classes/com/example/serieservice/controller/SerieController.class" afterDir="false" />
     </list>
     <list id="4c90c46c-eb75-4e8c-b369-650908ec7458" name="Changes by diegojinkus" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +53,18 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "show.migrate.to.gradle.popup": "false",
+    "spring.configuration.checksum": "4a599f1861116ddf0ef9669bc2de1b64",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.SerieServiceApplication">
     <configuration name="CatalogServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -105,10 +119,24 @@
       <option name="presentableId" value="Default" />
       <updated>1694741547817</updated>
       <workItem from="1694741550707" duration="5558000" />
+      <workItem from="1694785185566" duration="3875000" />
     </task>
+    <task id="LOCAL-00001" summary="dev">
+      <option name="closed" value="true" />
+      <created>1694752531602</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694752531602</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev" />
   </component>
 </project>

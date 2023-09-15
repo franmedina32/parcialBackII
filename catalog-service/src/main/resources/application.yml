@@ -59,4 +59,3 @@ resilience4j:
         maxAttempts: 3
         retryExceptions:
           - feign.FeignException.InternalServerError
-#
