@@ -41,6 +41,6 @@ public class CatalogController {
 
     @GetMapping("catalog/{genre}")
     public ResponseEntity<Catalogo> listarCatalog(@PathVariable String genre){
-        return ResponseEntity.ok(catalogService.listarPorGenero(genre));
+         return ResponseEntity.ok(catalogService.listarPorGenero(genre));
     }
 }
