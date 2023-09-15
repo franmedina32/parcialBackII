@@ -12,10 +12,12 @@ import io.github.resilience4j.circuitbreaker.CircuitBreakerRegistry;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import io.github.resilience4j.retry.annotation.Retry;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
 import java.util.List;
+import java.util.logging.Logger;
 
 
 @Service
@@ -28,7 +30,6 @@ public class CatalogService implements ICatalogService{
     private final MovieRepository movieRepository;
     private final SerieRepository serieRepository;
     private CircuitBreakerRegistry circuitBreakerRegistry;
-
 
     @CircuitBreaker(name = "catalogs", fallbackMethod = "emptyList")
     @Retry(name = "catalogs")
@@ -52,8 +53,9 @@ public class CatalogService implements ICatalogService{
         return movieRepository.save(movie);
     }
 
-    private String emptyList(CallNotPermittedException exception) {
-        return "Error creating Catalog with that genre";
+    private Catalogo emptyList(CallNotPermittedException exception) {
+        //"Error creating Catalog with that genre";
+        return new Catalogo();
     }
 
 }
